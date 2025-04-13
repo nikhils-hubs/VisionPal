@@ -24,12 +24,11 @@ body{
 
 .box1{
     height: 82vmin;
-    width: 50%;
-    background-color: rgb(252, 131, 228);
+    width: 70%;
 }
 
 .box2{
-    height: 82vmin;
+    height: 600;
     width: 50%;
     background-color: rgb(255, 254, 254);
     text-align: left;
@@ -58,6 +57,7 @@ a{
     width: 250px;
     border-radius: 8px;
     border: 0.5px solid rgb(194, 194, 194);
+    text-align: center;
 }
 
 .password{
@@ -65,4 +65,9 @@ a{
     width: 250px;
     border-radius: 8px;
     border: 0.5px solid rgb(194, 194, 194);
+    text-align: center;
+}
+.side-doodle{
+    height: 600px;
+    width: 600px;
 }
