@@ -1,0 +1,83 @@
+*{
+    margin: none;
+    padding: none;
+}
+
+/*navbar*/
+
+.navbar1{
+    background-color: orange;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    background-color: rgb(222, 222, 222);
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+}
+
+.nav-but{
+    background-color: rgb(222, 222, 222);
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    border: none;
+    margin-right: 20px;
+}
+
+.nav-but:hover{
+    background-color: rgb(204, 200, 200);
+}
+
+/*remaining body*/
+
+.container{
+    display: flex;
+    height: 682.7px;
+    background-color: orange;
+}
+
+.box1{
+    background-color: orange;
+    height: 682.7px;
+    width: 70%;
+
+    /*remove this if you want*/
+    /*.*/
+    text-align: center;
+    /*.*/
+}
+
+.box2{
+    background-color: rgb(241, 240, 240);
+    height: 682.7px;
+    width: 30%;
+    border-radius: 15px 0 0 0;
+
+    /*remove this if you want*/
+    /*.*/
+    text-align: center;
+    /*.*/
+    position: relative;
+}
+
+.chat-but{
+    background-color: rgb(195, 194, 194);
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    border: none;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 0.5px;
+}
+
+.chat-but:hover{
+    background-color: rgb(163, 163, 163);
+}
