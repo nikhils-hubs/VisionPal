@@ -42,6 +42,8 @@ body{
     border-radius: 8px;
     background-color: rgb(103, 0, 237);
     color: white;
+    cursor: pointer;
+
 }
 
 p{
@@ -70,4 +72,8 @@ a{
 .side-doodle{
     height: 600px;
     width: 600px;
+}
+.message{
+    display: none;
+    color: rgb(230, 230, 230);
 }

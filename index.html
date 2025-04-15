@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vision Pal</title>
@@ -25,5 +26,31 @@
 
 
 <style src="frontend.js"></style>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vision Pal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Vision Pal</div>
+    <div class="profile-dropdown">
+      <img src="" alt="Profile" class="profile-pic" />
+      <div class="dropdown-menu">
+        <a href="#">Profile Settings</a>
+        <a href="#">Logout</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main">
+    <div class="left-panel" id="leftPanel"></div>
+    <div class="right-panel" id="rightPanel"></div>
+    <button class="toggle-btn" onclick="togglePanel()">Chat</button>
+</div>
+
+  <script src="frontend.js"></script>
+
 </body>
 </html>
