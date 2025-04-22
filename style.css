@@ -98,4 +98,79 @@
     border-radius: 15px;
     cursor: pointer;
   }
-  
+  /* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container styling */
+.main {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Left panel styling (sidebar) */
+.left-panel {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-right: 2px solid #ccc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#leftPanel {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Right panel styling */
+.right-panel {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#responseBox {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  color: #333;
+  resize: none;
+}
+
+#userInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
